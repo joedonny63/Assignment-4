@@ -1,4 +1,4 @@
-(function () {
+(function (name) {
     var name =  ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
        for (var i = 0; i < name.length; i++) {
 
@@ -13,4 +13,4 @@
       window.name = name;
 
 
-})();
+})(name);
